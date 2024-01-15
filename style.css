@@ -1,0 +1,22 @@
+
+.icon-http{
+width: 250px;
+height: 200px;
+background-color: aqua;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-svg-home{
+    width: 100px;
+    fill: red
+}
+.icon-http:hover .icon-svg-home,
+.icon-http:focus .icon-svg-home{
+    fill: black;
+}
