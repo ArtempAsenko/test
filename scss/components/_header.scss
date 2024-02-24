@@ -1,0 +1,10 @@
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: $mainColor;
+    &__logo{
+    }
+    &:hover{
+      background-color: aqua;
+    }
+}
